@@ -1,33 +1,17 @@
-# TASK-NAME
+# Switch and Enums: Calculator 🔀
 
-This is the template for tasks. These repos are the starting points and instructions for students to explore a concept.
+Create an `enum` called `Operation` with following values:
 
-## Instructions
-- Fork and clone [this repository](https://github.com/JoinCODED/{REPO_NAME}) to your `Development` folder.
+```
+plus
+minus
+multiply
+divide
+```
 
-## Objective and end result
-- Write the objective of the task.
-- If there are any images, make sure you resize them to around 880px maximum width. **Don't add big images**
+And create 2 integers called `num1` and `num2`, and a variable called `op` thats stores one of the `enum`s.
 
-![screenshot](https://tenor.com/xNjE.gif)
+Then create a `switch` statement and based on the value of `op` print the sum, sub, multiple or division of the `num1` and `num2`.
 
-
-### 🍋 The basic challenge title
-
-- Step 1
-- Step 2
-- Step 3
-
-
-### 🤼‍♂️ The hard challenge title
-
-- Step 1
-- Step 2
-- Step 3
-
-
-### 🌶 The Extreme challenge title 
-
-- Step 1
-- Step 2
-- Step 3
+Example:
+if `op` is equal to `Operation.plus` then print `num1` + `num2`.
