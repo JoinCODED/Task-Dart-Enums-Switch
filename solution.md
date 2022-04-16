@@ -86,19 +86,9 @@ Add an if statement in the last case to make sure that num2 is'nt equal to zero:
     case Operation.divide:
       if(num2 == 0){
         print("Error");
-    }
+    } else {
       print(num1/num2);
+      }
       break;
 ```
 
-and don't forget to add `break`:
-
-```dart
-    case Operation.divide:
-      if(num2 == 0){
-        print("Error");
-        break;
-    }
-      print(num1/num2);
-      break;
-```
